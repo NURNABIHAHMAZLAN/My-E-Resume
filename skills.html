@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Skills</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<style>* {
+  box-sizing: border-box;
+}
+.about-section {
+  padding: 50px;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  background-color: #3AAFA9;
+  color: white;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 700px;
+}</style>
+</head>
+<body>
+
+    <header>
+      <img src="header.jpeg" title="header"   alt="Header" style="width:1200px;height:250px;">
+    </header>
+    <section>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="experiences.html">Experiences</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contactme.html">Contact Me</a></li>
+      <li><a href="student.html">Student Profile</a></li>
+    <div class="search-container">
+    <form class="search" action="/action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    </div>
+    <div style="padding-left:16px"> </div>
+    </ul>
+      
+    <article>
+        <div class="about-section">
+            <h1 style="font-size: 20px;">SKILLS</h1>
+        </div>
+        <p>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+
+<center><canvas id="myChart" style="width:300%;max-width:900px"></canvas></center>
+
+<script>
+var xValues = ["Microsoft Word", "Powerpoint", "Adobe Premiere Pro", "Adobe Photoshop", "Excel"];
+var yValues = [90, 80, 50, 30, 25];
+var barColors = ["red", "green","blue","orange","brown"];
+
+new Chart("myChart", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Hard Skills"
+    }
+  }
+});
+</script></p>
+<p>
+<script>
+    var xValues = ["Communication Skills", "Management Skills", "Presentation Skills", "Problem-Solving Skill", "Teamwork"];
+    var yValues = [90, 85, 80, 75, 75];
+    var barColors = ["red", "green","blue","orange","brown"];
+    
+    new Chart("myChart", {
+      type: "bar",
+      data: {
+        labels: xValues,
+        datasets: [{
+          backgroundColor: barColors,
+          data: yValues
+        
+        }]
+      },
+      options: {
+        legend: {display: false},
+        title: {
+          display: true,
+          text: "Soft Skills"
+        }
+      }
+    });
+    </script></p>
+    </article>
+<footer>
+  <p>&copy;Nur Nabihah Binti Mazlan</p>
+</footer>
+              
+</body>
+</html>

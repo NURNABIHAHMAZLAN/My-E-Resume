@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Me</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<style>* {
+  box-sizing: border-box;
+}
+
+img {
+    border-radius: 10%;
+}
+  .image-box {
+  width: 100%;
+  height: 460px;
+  background-size: cover;
+}
+
+.header {
+  background-color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background:#3AAFA9;
+  position: relative;
+}
+
+.container{
+  z-index: 12;
+  max-width: 1050px;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  margin: 0 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  margin-left: 11%;
+  margin-top: 2%;
+  height: 70%;
+}
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+}
+.content .image-box{
+  max-width: 55%;
+}
+.content .image-box img{
+  width: 100%;
+}
+.content .topic{
+  font-size: 22px;
+  font-weight: 500;
+  color: #111 ;
+}
+.content form{
+  width: 40%;
+  margin-right: 30px;
+  margin-top: -7%;
+}
+.content .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 16px 0;
+  position: relative;
+}
+.content .input-box input{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  padding-left: 16px;
+  background:#3AAFA9;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.content .input-box input:focus,
+.content .input-box input:valid{
+  border-color: #2B7A78;
+  background-color: #2B7A78;
+}
+.content .input-box label{
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  color: black;
+  font-size: 15px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+.content .input-box input:focus ~ label,
+.content .input-box input:valid ~ label{
+  top: 0;
+  left: 12px;
+  display: 14px;
+  color: #111;
+  background: #3AAFA9;
+}
+
+
+.content .input-box input[type="submit"]{
+  color: #fff;
+  background: #2B7A78 ;
+  padding-left: 0;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.content .input-box input[type="submit"]:hover{
+  background-color: #3AAFA9;
+}
+@media (max-width:1000px) {
+  .content .image-box{
+    max-width: 70%;
+  }
+  .content{
+    padding: 10px 0;
+  }
+}
+@media (max-width:900px) {
+  .content .image-box{
+    display: none;
+  }
+  .content form{
+    width: 100%;
+    margin-left: 30px;
+  }
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  color: white;
+  margin-top: 2%;
+}
+
+</style>
+</head>
+<body>
+
+  <header>
+    <img src="header.jpeg" title="header"   alt="Header" style="width:1200px;height:250px;">
+  </header>
+  <section>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutme.html">About Me</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="experiences.html">Experiences</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="contactme.html">Contact Me</a></li>
+    <li><a href="student.html">Student Profile</a></li>
+  <div class="search-container">
+  <form class="search" action="/action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+  </div>
+  <div style="padding-left:16px"> </div>
+  </ul>
+    
+  <article>
+    <div class="container">
+        <div class="content">
+          <div class="image-box">
+            <center><img src="nabihah.jpeg" style="width: 350px;height: 500px;"></center>
+          </div>
+        <form action="#">
+          <div class="topic"><b>Contact Me</b></div>
+          <div class="input-box">
+            <input type="text" required>
+            <label>Enter your name</label>
+          </div>
+          <div class="input-box">
+            <input type="text" required>
+            <label >Enter your email</label>
+          </div>
+         <div class="input-box">
+            <input type="text" required style="height:250%">
+            <label>Enter your messages</label>
+          </div>
+          <div class="input-box">
+            <input type="submit" value="Send Message" style="margin-top: 20%">
+          </div>
+        </form>
+      </div>
+      </div>
+            
+  </article>
+  </section>
+        
+        
+        
+  <footer>
+  <p>&copy;Nur Nabihah Binti Mazlan</p>
+  </footer>
+        
+</body>
+        </html>
+        
+        

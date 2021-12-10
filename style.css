@@ -1,0 +1,166 @@
+    
+
+<head>
+<style>
+
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #2B7A78;
+  padding: 8px;
+  text-align: center;
+  font-size: 1px;
+  color: white;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-container {
+  float: right;
+  padding: 5px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 14px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3AAFA9;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+form.search input[type=text] {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.search button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #2B7A78;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.search button:hover {
+  background: #111;
+}
+
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 900px;
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column.side {
+  background-color: #3AAFA9;
+  width: 43%;
+  height: 45%;
+  position: absolute;
+  top: 350px;
+  text-align: center;
+  line-height: 1.5;
+}
+.column.side1 {
+  background-color: #3AAFA9;
+  width: 43%;
+  height: 45%;
+  position: absolute;
+  top: 635px;
+  text-align: center;
+  text-justify: inter-word;
+  line-height: 1.5;
+}
+.column.side2 {
+  background-color: #3AAFA9;
+  width: 43%;
+  height: 45%;
+  position: absolute;
+  top: 925px;
+  line-height: 1.5;
+}
+.column.middle {
+  background-color: #3AAFA9;
+  width: 50%;
+  right: 50px;
+  text-align: right;
+  position: absolute;
+  top: 350px;
+}
+table, td, td{
+  border: 3px solid #3AAFA9;
+}
+img.profile {
+  border: 5px solid #fff;
+}
+footer {
+  background-color: #111;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
